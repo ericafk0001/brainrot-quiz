@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Schibsted Grotesk", sans-serif;
+  background-color: #131515;
+}
+
+#app {
+  background: #fff;
+  width: 90%;
+  max-width: 850px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#app h1 {
+  font-weight: bold;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+  font-size: 28px;
+}
+
+.sigma {
+  text-decoration: underline;
+}
+
+#quiz {
+  padding: 20px 0;
+}
+
+#quiz h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: white;
+  color: #222;
+  font-weight: 700;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover:not([disabled]) {
+  background-color: #131515;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn {
+  background: #131515;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #93eca6;
+}
+
+.incorrect {
+  background: #fca2a2;
+}
