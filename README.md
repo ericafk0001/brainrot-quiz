@@ -7,7 +7,7 @@ A stupid but fun quiz to test you fried you brain is. Fully responsive so you ca
 - Randomly generated Questions
 - Fully Responsive (play anywhere, anytime)
 - Clean, Simple UI/UX
-- Retry Button
+- Sound Effects
 - Freaky
 
 ## Screenshots
