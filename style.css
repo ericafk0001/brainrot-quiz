@@ -6,15 +6,14 @@
 
 body {
   margin: 0;
-  overflow: hidden;
   font-family: "Schibsted Grotesk", sans-serif;
-  background-color: #131515;
+  background-color: #232926;
 }
 
 #app {
-  background: #fff;
+  background: #e6e7e3;
   width: 90%;
-  max-width: 850px;
+  max-width: 950px;
   margin: 100px auto 0;
   border-radius: 10px;
   padding: 30px;
@@ -36,15 +35,16 @@ body {
 }
 
 #quiz h2 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .btn {
   cursor: pointer;
-  background-color: white;
+  background-color: #f1f3ed;
   color: #222;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 18px;
   width: 100%;
   border: 1px solid #222;
   border-radius: 4px;
